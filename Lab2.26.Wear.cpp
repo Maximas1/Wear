@@ -7,6 +7,7 @@
 #include <vector>
 using namespace std;
 
+typedef long double double_t;
 class Wear  // NOLINT(cppcoreguidelines-special-member-functions)
 {
 	size_t id;
@@ -22,6 +23,7 @@ public:
 
 	void set_cost(double_t x);
 
+	
 
 	size_t get_id() const;
 
@@ -107,6 +109,16 @@ int main()
 	{
 		cout << it;
 	}
+	/*
+	double_t cost;
+	do{
+	cin>>cost;
+	if(cin.fail()) cout<<"OOps";
+	else fl=false;
+	cin.clear();
+	cin.ignore(cin.rdbuf()->in_avail());
+	}while(fail|| cost<0);
+	*/
 	std::cout<<rj<<bj;
 	system("pause");
 }
