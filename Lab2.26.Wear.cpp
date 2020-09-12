@@ -118,6 +118,7 @@ int main()
 	cin.clear();
 	cin.ignore(cin.rdbuf()->in_avail());
 	}while(fail|| cost<0);
+	Customer::set_cost(rj,cost);
 	*/
 	std::cout<<rj<<bj;
 	system("pause");
