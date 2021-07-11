@@ -91,7 +91,7 @@ int main()
 {
 	Wear rj("red jacket", 350);
 	Wear bj("blue jeans", 150);
-	vector<Wear> wears;
+	vector<Wear> wears; //Wears container
 	wears.emplace_back("red jacket", 350);
 	wears.emplace_back("blue jacket", 1350.90);
 	wears.emplace_back("Machine Gun", 135000.9);
@@ -109,7 +109,6 @@ int main()
 	{
 		cout << it;
 	}
-	bool run=true;
 	std::cout<<rj<<bj;
 	system("pause");
 }
