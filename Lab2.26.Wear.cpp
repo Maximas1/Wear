@@ -8,7 +8,7 @@
 using namespace std;
 
 typedef long double double_t;
-class Wear  // NOLINT(cppcoreguidelines-special-member-functions)
+class Wear  
 {
 	size_t id;
 	string name;
@@ -109,17 +109,7 @@ int main()
 	{
 		cout << it;
 	}
-	/*
-	double_t cost;
-	do{
-	cin>>cost;
-	if(cin.fail()) cout<<"OOps";
-	else fl=false;
-	cin.clear();
-	cin.ignore(cin.rdbuf()->in_avail());
-	}while(fail|| cost<0);
-	Customer::set_cost(rj,cost);
-	*/
+	
 	std::cout<<rj<<bj;
 	system("pause");
 }
