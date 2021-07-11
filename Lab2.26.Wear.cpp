@@ -7,7 +7,7 @@
 #include <vector>
 using namespace std;
 
-typedef long double double_t;
+typedef long double double_t;//why you can not use double_t instead?
 class Wear  
 {
 	size_t id;
