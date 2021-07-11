@@ -109,7 +109,7 @@ int main()
 	{
 		cout << it;
 	}
-	
+	bool run=true;
 	std::cout<<rj<<bj;
 	system("pause");
 }
